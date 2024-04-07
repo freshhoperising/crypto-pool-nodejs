@@ -84,7 +84,6 @@ Features
 
 #### Extra features
 * An easily extendable, responsive, light-weight front-end using API to display data
-* Onishin's [keepalive function](https://github.com/perl5577/cpuminer-multi/commit/0c8aedb)
 * Support for merged mining
 * Support for slush mining system (disabled by default)
 * E-Mail Notifications on worker connected, disconnected (timeout) or banned (support MailGun, SMTP and Sendmail)
@@ -781,13 +780,6 @@ curl 127.0.0.1:18081/json_rpc -d '{"method":"getblockheaderbyheight","params":{"
 * To monitor server load for CPU, Network, IO, etc - I suggest using [Netdata](https://github.com/firehol/netdata)
 * To keep your pool node script running in background, logging to file, and automatically restarting if it crashes - I suggest using [forever](https://github.com/nodejitsu/forever) or [PM2](https://github.com/Unitech/pm2)
 
-
-Community / Support
-===
-
-* [GitHub Issues](https://github.com/dvandal/cryptonote-nodejs-pool/issues)
-* [Telegram Group](http://t.me/CryptonotePool)
-
 #### Pools Using This Software
 
 * https://pool.leviar.io/
@@ -799,11 +791,6 @@ Referral Links
 * Binance Exchange - Buy and Sell cryptos: [https://www.binance.com/en/register?ref=92696209](https://www.binance.com/en/register?ref=92696209)
 * Coinbase Wallet - Buy 100$ USD and get 10$ USD free: [https://www.coinbase.com/join/vandal_y](https://www.coinbase.com/join/vandal_y)
 * Shakepay Wallet - Buy 100$ CAD and get 30$ CAD free: [https://shakepay.me/r/VDAIT0G](https://shakepay.me/r/VDAIT0G)
-
-Donations
----------
-
-Thanks for supporting my works on this project! If you want to make a donation to [Dvandal](https://github.com/dvandal/), the developper of this project, you can send any amount of your choice to one of theses addresses:
 
 * Bitcoin (BTC): `392gS9zuYQBghmMpK3NipBTaQcooR9UoGy`
 * Bitcoin Cash (BCH): `qp46fz7ht8xdhwepqzhk7ct3aa0ucypfgv5qvv57td`
@@ -821,15 +808,3 @@ Thanks for supporting my works on this project! If you want to make a donation t
 * Tezos (XTZ): `tz1T1idcT5hfyjfLHWeqbYvmrcYn5JgwrJKW`
 * Zcash (ZCH): `t1YTGVoVbeCuTn3Pg9MPGrSqweFLPGTQ7on`
 * 0x (ZRX): `0x4e52AAfC6dAb2b7812A0a7C24a6DF6FAab65Fc9a`
-
-Credits
----------
-
-* [fancoder](//github.com/fancoder) - Developper on cryptonote-universal-pool project from which current project is forked.
-* [dvandal](//github.com/dvandal) - Developer of cryptonote-nodejs-pool software
-
-License
--------
-Released under the GNU General Public License v2
-
-http://www.gnu.org/licenses/gpl-2.0.html
